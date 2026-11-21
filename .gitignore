@@ -3,3 +3,21 @@ data/
 __pycache__/
 *.pyc
 .DS_Store
+
+# --- Never commit: secrets, working notes, drafts, private folders ---
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token*.json
+.streamlit/secrets.toml
+HANDOFF*.md
+*handoff*
+social/
+Claude outputs/
+writing/
+drafts/
+article/
+_local/
+outreach/
